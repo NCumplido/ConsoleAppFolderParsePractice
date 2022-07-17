@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ColoredConsole" Version="1.0.0" />
+    <PackageReference Include="ConsoleTables" Version="2.4.2" />
+    <PackageReference Include="Spectre.Console" Version="0.44.0" />
+    <PackageReference Include="System.Console" Version="4.3.1" />
+    <PackageReference Include="Trivial.Console" Version="6.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ResourceFiles\2014\First\Concepts\Exam\" />
+    <Folder Include="ResourceFiles\2014\First\EMEOR\Exam\" />
+    <Folder Include="ResourceFiles\2014\First\ENDOEOC\Exam\" />
+    <Folder Include="ResourceFiles\2014\First\Fundamentals\Exam\" />
+    <Folder Include="ResourceFiles\2014\Second\Concepts\Exam\" />
+    <Folder Include="ResourceFiles\2014\Second\EMEOR\Exam\" />
+    <Folder Include="ResourceFiles\2014\Second\ENDOEOC\Exam\" />
+    <Folder Include="ResourceFiles\2014\Second\Fundamentals\Exam\" />
+    <Folder Include="ResourceFiles\2014\Second\Module\Exam\" />
+    <Folder Include="ResourceFiles\2014\Third\Concepts\Exam\" />
+    <Folder Include="ResourceFiles\2014\Third\EMEOR\Exam\" />
+    <Folder Include="ResourceFiles\2014\Third\ENDOEOC\Exam\" />
+    <Folder Include="ResourceFiles\2014\Third\Fundamentals\InitialExam\" />
+    <Folder Include="ResourceFiles\2014\Third\Fundamentals\Secondary\" />
+    <Folder Include="ResourceFiles\2014\Third\Fundamentals\Tertiary\" />
+    <Folder Include="ResourceFiles\2014\Third\Module\Exam\" />
+    <Folder Include="ResourceFiles\2015\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2016\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2017\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2018\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2019\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2020\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2021\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\2022\Cohort\Module\Exam\" />
+    <Folder Include="ResourceFiles\Year\Cohort\Module\Exam\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ConsoleAppFolderParsePractice.sln" />
+  </ItemGroup>
+
+</Project>
